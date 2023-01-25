@@ -1,0 +1,1482 @@
+2022-01-15 16:17:07 main INFO  Server:18 - Type the file path 
+2022-01-15 16:18:32 main INFO  Server:39 - The path wasn't found
+2022-01-15 16:19:05 main INFO  Server:18 - Type the file path 
+2022-01-15 16:19:34 main INFO  Server:22 - The path was found
+2022-01-15 16:20:08 main INFO  Server:18 - Type the file path 
+2022-01-15 16:22:10 main INFO  Server:22 - The path was found
+2022-01-15 16:22:10 main INFO  Server:23 - Type the name of your file
+2022-01-15 16:22:17 main INFO  Server:27 - The file was found
+2022-01-15 16:22:17 main INFO  Server:29 - Arrancando servidor.
+2022-01-15 16:22:17 main INFO  Server:31 - Esperando conexión...
+2022-01-15 20:52:38 main INFO  Server:18 - Type the file path 
+2022-01-15 20:52:44 main INFO  Server:22 - The path was found
+2022-01-15 20:52:44 main INFO  Server:23 - Type the name of your file
+2022-01-15 20:53:36 main INFO  Server:18 - Type the file path 
+2022-01-15 20:53:44 main INFO  Server:22 - The path was found
+2022-01-15 20:53:44 main INFO  Server:23 - Type the name of your file
+2022-01-15 20:53:46 main INFO  Server:27 - The file was found
+2022-01-15 20:53:46 main INFO  Server:29 - Launching server.
+2022-01-15 20:53:46 main INFO  Server:31 - waiting for connection...
+2022-01-15 20:53:58 main INFO  Client:14 - Launching client...
+2022-01-15 20:55:09 main INFO  Client:14 - Launching client...
+2022-01-15 20:55:11 main ERROR Client:20 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:15)
+2022-01-15 20:55:56 main INFO  Client:14 - Launching client...
+2022-01-15 20:55:58 main ERROR Client:20 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:15)
+2022-01-15 20:56:06 main INFO  Server:18 - Type the file path 
+2022-01-15 20:56:10 main INFO  Server:22 - The path was found
+2022-01-15 20:56:10 main INFO  Server:23 - Type the name of your file
+2022-01-15 20:56:12 main INFO  Server:27 - The file was found
+2022-01-15 20:56:12 main INFO  Server:29 - Launching server.
+2022-01-15 20:56:12 main INFO  Server:31 - waiting for connection...
+2022-01-15 20:56:22 main INFO  Client:14 - Launching client...
+2022-01-15 20:56:22 Thread-1 ERROR WriteToFile:29 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-15 20:56:22 Thread-1 ERROR WriteToFile:29 - Error al leer del socket
+java.io.IOException: Socket Closed
+	at java.base/java.net.AbstractPlainSocketImpl.getInputStream(AbstractPlainSocketImpl.java:470)
+	at java.base/java.net.Socket$2.run(Socket.java:933)
+	at java.base/java.net.Socket$2.run(Socket.java:931)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.Socket.getInputStream(Socket.java:930)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:23)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 09:44:40 main INFO  Server:18 - Type the file path 
+2022-01-20 09:46:00 main INFO  Server:22 - The path was found
+2022-01-20 09:46:00 main INFO  Server:23 - Type the name of your file
+2022-01-20 09:46:25 main INFO  Server:27 - The file was found
+2022-01-20 09:46:25 main INFO  Server:29 - Launching server.
+2022-01-20 09:46:25 main INFO  Server:31 - waiting for connection...
+2022-01-20 09:46:33 main INFO  Client:14 - Launching client...
+2022-01-20 09:46:33 Thread-1 ERROR WriteToFile:31 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 10:34:35 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 10:34:59 main INFO  Server:18 - Type the file path 
+2022-01-20 10:35:11 main INFO  Server:22 - The path was found
+2022-01-20 10:35:11 main INFO  Server:23 - Type the name of your file
+2022-01-20 10:35:15 main INFO  Server:27 - The file was found
+2022-01-20 10:35:15 main INFO  Server:29 - Launching server.
+2022-01-20 10:35:48 main INFO  Server:18 - Type the file path 
+2022-01-20 10:35:51 main INFO  Server:22 - The path was found
+2022-01-20 10:35:51 main INFO  Server:23 - Type the name of your file
+2022-01-20 10:35:54 main INFO  Server:27 - The file was found
+2022-01-20 10:35:54 main INFO  Server:29 - Launching server.
+2022-01-20 10:37:13 main INFO  Server:18 - Type the file path 
+2022-01-20 10:48:48 main INFO  Server:22 - The path was found
+2022-01-20 10:48:48 main INFO  Server:23 - Type the name of your file
+2022-01-20 10:48:52 main INFO  Server:27 - The file was found
+2022-01-20 10:48:52 main INFO  Server:29 - Launching server.
+2022-01-20 10:49:16 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 10:49:28 main INFO  Client:21 - The path was found
+2022-01-20 10:49:28 main INFO  Client:22 - Type the name of your new file
+2022-01-20 10:49:32 main INFO  Client:29 - Your file has been created
+2022-01-20 10:49:32 main INFO  Client:30 - Launching client...
+2022-01-20 10:49:32 Thread-1 ERROR WriteToFile:31 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 10:59:19 main INFO  Server:18 - Type the file path 
+2022-01-20 11:01:47 main INFO  Server:22 - The path was found
+2022-01-20 11:01:47 main INFO  Server:23 - Type the name of your file
+2022-01-20 11:02:03 main INFO  Server:27 - The file was found
+2022-01-20 11:02:03 main INFO  Server:28 - Launching server.
+2022-01-20 11:02:41 main INFO  Server:18 - Type the file path 
+2022-01-20 11:02:44 main INFO  Server:22 - The path was found
+2022-01-20 11:02:44 main INFO  Server:23 - Type the name of your file
+2022-01-20 11:02:50 main INFO  Server:27 - The file was found
+2022-01-20 11:02:50 main INFO  Server:28 - Launching server.
+2022-01-20 11:02:50 main INFO  Server:30 - waiting for connection...
+2022-01-20 11:02:56 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 11:03:01 main INFO  Client:21 - The path was found
+2022-01-20 11:03:01 main INFO  Client:22 - Type the name of your new file
+2022-01-20 11:03:08 main INFO  Client:29 - Your file has been created
+2022-01-20 11:03:08 main INFO  Client:30 - Launching client...
+2022-01-20 11:03:08 Thread-1 ERROR WriteToFile:31 - Error al leer del socket
+java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.getInputStream(Socket.java:923)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 11:03:08 Thread-1 ERROR WriteToFile:31 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:17:10 main INFO  Server:18 - Type the file path 
+2022-01-20 12:17:14 main INFO  Server:22 - The path was found
+2022-01-20 12:17:14 main INFO  Server:23 - Type the name of your file
+2022-01-20 12:17:17 main INFO  Server:27 - The file was found
+2022-01-20 12:17:17 main INFO  Server:28 - Launching server.
+2022-01-20 12:17:29 main INFO  Server:18 - Type the file path 
+2022-01-20 12:17:39 main INFO  Server:22 - The path was found
+2022-01-20 12:17:39 main INFO  Server:23 - Type the name of your file
+2022-01-20 12:17:40 main INFO  Server:27 - The file was found
+2022-01-20 12:17:40 main INFO  Server:28 - Launching server.
+2022-01-20 12:17:40 main INFO  Server:30 - waiting for connection...
+2022-01-20 12:17:45 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 12:17:48 main INFO  Client:21 - The path was found
+2022-01-20 12:17:48 main INFO  Client:22 - Type the name of your new file
+2022-01-20 12:17:52 main INFO  Client:29 - Your file has been created
+2022-01-20 12:17:52 main INFO  Client:30 - Launching client...
+2022-01-20 12:17:52 Thread-1 ERROR WriteToFile:30 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:17:52 Thread-1 ERROR WriteToFile:30 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:20:38 main INFO  Server:18 - Type the file path 
+2022-01-20 12:20:41 main INFO  Server:22 - The path was found
+2022-01-20 12:20:41 main INFO  Server:23 - Type the name of your file
+2022-01-20 12:20:43 main INFO  Server:27 - The file was found
+2022-01-20 12:20:43 main INFO  Server:28 - Launching server.
+2022-01-20 12:20:43 main INFO  Server:30 - waiting for connection...
+2022-01-20 12:20:46 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 12:20:49 main INFO  Client:21 - The path was found
+2022-01-20 12:20:49 main INFO  Client:22 - Type the name of your new file
+2022-01-20 12:20:53 main INFO  Client:29 - Your file has been created
+2022-01-20 12:20:53 main INFO  Client:30 - Launching client...
+2022-01-20 12:20:53 Thread-1 ERROR WriteToFile:30 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:23:41 main INFO  Server:18 - Type the file path 
+2022-01-20 12:23:48 main INFO  Server:22 - The path was found
+2022-01-20 12:23:48 main INFO  Server:23 - Type the name of your file
+2022-01-20 12:23:56 main INFO  Server:27 - The file was found
+2022-01-20 12:23:56 main INFO  Server:28 - Launching server.
+2022-01-20 12:23:56 main INFO  Server:30 - waiting for connection...
+2022-01-20 12:24:01 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 12:24:10 main INFO  Client:21 - The path was found
+2022-01-20 12:24:10 main INFO  Client:22 - Type the name of your new file
+2022-01-20 12:24:15 main INFO  Client:29 - Your file has been created
+2022-01-20 12:24:15 main INFO  Client:30 - Launching client...
+2022-01-20 12:24:15 Thread-1 ERROR WriteToFile:30 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:49:06 main INFO  Server:18 - Type the file path 
+2022-01-20 12:49:09 main INFO  Server:41 - ERROR:The path wasn't found
+2022-01-20 12:49:16 main INFO  Server:18 - Type the file path 
+2022-01-20 12:49:21 main INFO  Server:22 - The path was found
+2022-01-20 12:49:21 main INFO  Server:23 - Type the name of your file
+2022-01-20 12:49:29 main INFO  Server:27 - The file was found
+2022-01-20 12:49:29 main INFO  Server:28 - Launching server.
+2022-01-20 12:49:29 main INFO  Server:30 - waiting for connection...
+2022-01-20 12:49:35 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 12:49:42 main INFO  Client:21 - The path was found
+2022-01-20 12:49:42 main INFO  Client:22 - Type the name of your new file
+2022-01-20 12:49:47 main INFO  Client:29 - Your file has been created
+2022-01-20 12:49:47 main INFO  Client:30 - Launching client...
+2022-01-20 12:49:47 Thread-1 ERROR WriteToFile:34 - Error al leer del socket
+java.io.IOException: Socket Closed
+	at java.base/java.net.AbstractPlainSocketImpl.getInputStream(AbstractPlainSocketImpl.java:470)
+	at java.base/java.net.Socket$2.run(Socket.java:933)
+	at java.base/java.net.Socket$2.run(Socket.java:931)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.Socket.getInputStream(Socket.java:930)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:49:47 Thread-1 ERROR WriteToFile:34 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 12:52:30 main INFO  Server:18 - Type the file path 
+2022-01-20 12:52:33 main INFO  Server:22 - The path was found
+2022-01-20 12:52:33 main INFO  Server:23 - Type the name of your file
+2022-01-20 12:52:41 main INFO  Server:27 - The file was found
+2022-01-20 12:52:41 main INFO  Server:28 - Launching server.
+2022-01-20 12:52:41 main INFO  Server:30 - waiting for connection...
+2022-01-20 12:52:46 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 12:52:57 main INFO  Client:21 - The path was found
+2022-01-20 12:52:57 main INFO  Client:22 - Type the name of your new file
+2022-01-20 12:53:01 main INFO  Client:29 - Your file has been created
+2022-01-20 12:53:01 main INFO  Client:30 - Launching client...
+2022-01-20 12:53:01 Thread-1 ERROR WriteToFile:34 - Error al leer del socket
+java.io.IOException: Socket Closed
+	at java.base/java.net.AbstractPlainSocketImpl.getInputStream(AbstractPlainSocketImpl.java:470)
+	at java.base/java.net.Socket$2.run(Socket.java:933)
+	at java.base/java.net.Socket$2.run(Socket.java:931)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.Socket.getInputStream(Socket.java:930)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 13:00:07 main INFO  Server:18 - Type the file path 
+2022-01-20 13:00:13 main INFO  Server:22 - The path was found
+2022-01-20 13:00:13 main INFO  Server:23 - Type the name of your file
+2022-01-20 13:00:21 main INFO  Server:27 - The file was found
+2022-01-20 13:00:21 main INFO  Server:28 - Launching server.
+2022-01-20 13:00:21 main INFO  Server:30 - waiting for connection...
+2022-01-20 13:00:25 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 13:00:36 main INFO  Client:21 - The path was found
+2022-01-20 13:00:36 main INFO  Client:22 - Type the name of your new file
+2022-01-20 13:00:39 main INFO  Client:29 - Your file has been created
+2022-01-20 13:00:39 main INFO  Client:30 - Launching client...
+2022-01-20 13:00:39 Thread-1 ERROR WriteToFile:35 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 13:00:39 Thread-1 ERROR WriteToFile:35 - Error al leer del socket
+java.io.IOException: Socket Closed
+	at java.base/java.net.AbstractPlainSocketImpl.getInputStream(AbstractPlainSocketImpl.java:470)
+	at java.base/java.net.Socket$2.run(Socket.java:933)
+	at java.base/java.net.Socket$2.run(Socket.java:931)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.Socket.getInputStream(Socket.java:930)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 13:24:56 main INFO  Server:18 - Type the file path 
+2022-01-20 13:25:04 main INFO  Server:22 - The path was found
+2022-01-20 13:25:04 main INFO  Server:23 - Type the name of your file
+2022-01-20 13:25:08 main INFO  Server:27 - The file was found
+2022-01-20 13:25:08 main INFO  Server:28 - Launching server.
+2022-01-20 13:25:08 main INFO  Server:30 - waiting for connection...
+2022-01-20 13:25:13 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 13:25:20 main INFO  Client:21 - The path was found
+2022-01-20 13:25:20 main INFO  Client:22 - Type the name of your new file
+2022-01-20 13:25:26 main INFO  Client:29 - Your file has been created
+2022-01-20 13:25:26 main INFO  Client:30 - Launching client...
+2022-01-20 13:25:26 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 13:35:17 main INFO  Server:18 - Type the file path 
+2022-01-20 13:35:23 main INFO  Server:40 - ERROR:The path wasn't found
+2022-01-20 13:35:29 main INFO  Server:18 - Type the file path 
+2022-01-20 13:35:35 main INFO  Server:22 - The path was found
+2022-01-20 13:35:35 main INFO  Server:23 - Type the name of your file
+2022-01-20 13:35:38 main INFO  Server:27 - The file was found
+2022-01-20 13:35:38 main INFO  Server:28 - Launching server.
+2022-01-20 13:35:38 main INFO  Server:30 - waiting for connection...
+2022-01-20 13:35:41 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 13:36:00 main INFO  Server:18 - Type the file path 
+2022-01-20 13:36:04 main INFO  Server:40 - ERROR:The path wasn't found
+2022-01-20 13:36:10 main INFO  Server:18 - Type the file path 
+2022-01-20 13:36:19 main INFO  Server:22 - The path was found
+2022-01-20 13:36:19 main INFO  Server:23 - Type the name of your file
+2022-01-20 13:36:24 main INFO  Server:27 - The file was found
+2022-01-20 13:36:24 main INFO  Server:28 - Launching server.
+2022-01-20 13:36:24 main INFO  Server:30 - waiting for connection...
+2022-01-20 13:36:28 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 13:37:26 main INFO  Client:21 - The path was found
+2022-01-20 13:37:26 main INFO  Client:22 - Type the name of your new file
+2022-01-20 13:37:36 main INFO  Client:29 - Your file has been created
+2022-01-20 13:37:36 main INFO  Client:30 - Launching client...
+2022-01-20 13:37:36 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.io.IOException: Socket Closed
+	at java.base/java.net.AbstractPlainSocketImpl.getInputStream(AbstractPlainSocketImpl.java:470)
+	at java.base/java.net.Socket$2.run(Socket.java:933)
+	at java.base/java.net.Socket$2.run(Socket.java:931)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.Socket.getInputStream(Socket.java:930)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 13:37:36 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 15:55:57 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 15:56:14 main INFO  Client:21 - The path was found
+2022-01-20 15:56:14 main INFO  Client:22 - Type the name of your new file
+2022-01-20 15:56:37 main INFO  Server:18 - Type the file path 
+2022-01-20 15:56:53 main INFO  Server:22 - The path was found
+2022-01-20 15:56:53 main INFO  Server:23 - Type the name of your file
+2022-01-20 15:57:25 main INFO  Server:27 - The file was found
+2022-01-20 15:57:25 main INFO  Server:28 - Launching server.
+2022-01-20 15:57:25 main INFO  Server:30 - waiting for connection...
+2022-01-20 15:57:32 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 15:58:03 main INFO  Client:21 - The path was found
+2022-01-20 15:58:03 main INFO  Client:22 - Type the name of your new file
+2022-01-20 15:58:10 main INFO  Client:29 - Your file has been created
+2022-01-20 15:58:10 main INFO  Client:30 - Launching client...
+2022-01-20 15:58:10 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 15:58:10 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.io.IOException: Socket Closed
+	at java.base/java.net.AbstractPlainSocketImpl.getInputStream(AbstractPlainSocketImpl.java:470)
+	at java.base/java.net.Socket$2.run(Socket.java:933)
+	at java.base/java.net.Socket$2.run(Socket.java:931)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.Socket.getInputStream(Socket.java:930)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 16:13:26 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:13:33 main INFO  Server:18 - Type the file path 
+2022-01-20 16:13:39 main INFO  Server:22 - The path was found
+2022-01-20 16:13:39 main INFO  Server:23 - Type the name of your file
+2022-01-20 16:16:02 main INFO  Server:27 - The file was found
+2022-01-20 16:16:02 main INFO  Server:28 - Launching server.
+2022-01-20 16:16:02 main INFO  Server:30 - waiting for connection...
+2022-01-20 16:16:10 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:16:17 main INFO  Client:21 - The path was found
+2022-01-20 16:16:17 main INFO  Client:22 - Type the name of your new file
+2022-01-20 16:16:22 main INFO  Client:29 - Your file has been created
+2022-01-20 16:16:22 main INFO  Client:30 - Launching client...
+2022-01-20 16:16:22 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 16:19:41 main INFO  Server:18 - Type the file path 
+2022-01-20 16:19:47 main INFO  Server:22 - The path was found
+2022-01-20 16:19:47 main INFO  Server:23 - Type the name of your file
+2022-01-20 16:19:55 main INFO  Server:27 - The file was found
+2022-01-20 16:19:55 main INFO  Server:28 - Launching server.
+2022-01-20 16:19:55 main INFO  Server:30 - waiting for connection...
+2022-01-20 16:19:59 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:20:10 main INFO  Client:21 - The path was found
+2022-01-20 16:20:10 main INFO  Client:22 - Type the name of your new file
+2022-01-20 16:20:17 main INFO  Client:29 - Your file has been created
+2022-01-20 16:20:17 main INFO  Client:30 - Launching client...
+2022-01-20 16:20:17 Thread-1 ERROR WriteToFile:37 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 16:21:54 main INFO  Server:18 - Type the file path 
+2022-01-20 16:22:00 main INFO  Server:22 - The path was found
+2022-01-20 16:22:00 main INFO  Server:23 - Type the name of your file
+2022-01-20 16:22:04 main INFO  Server:27 - The file was found
+2022-01-20 16:22:04 main INFO  Server:28 - Launching server.
+2022-01-20 16:22:04 main INFO  Server:30 - waiting for connection...
+2022-01-20 16:22:09 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:22:16 main INFO  Client:21 - The path was found
+2022-01-20 16:22:16 main INFO  Client:22 - Type the name of your new file
+2022-01-20 16:22:27 main INFO  Client:29 - Your file has been created
+2022-01-20 16:22:27 main INFO  Client:30 - Launching client...
+2022-01-20 16:22:27 Thread-1 ERROR WriteToFile:37 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-20 16:29:55 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:29:59 main INFO  Server:18 - Type the file path 
+2022-01-20 16:30:03 main INFO  Server:22 - The path was found
+2022-01-20 16:30:03 main INFO  Server:23 - Type the name of your file
+2022-01-20 16:30:07 main INFO  Server:27 - The file was found
+2022-01-20 16:30:07 main INFO  Server:28 - Launching server.
+2022-01-20 16:30:07 main INFO  Server:30 - waiting for connection...
+2022-01-20 16:30:24 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:30:29 main INFO  Client:21 - The path was found
+2022-01-20 16:30:29 main INFO  Client:22 - Type the name of your new file
+2022-01-20 16:30:34 main INFO  Client:29 - Your file has been created
+2022-01-20 16:30:34 main INFO  Client:30 - Launching client...
+2022-01-20 16:31:47 main INFO  Server:18 - Type the file path 
+2022-01-20 16:31:49 main INFO  Server:22 - The path was found
+2022-01-20 16:31:49 main INFO  Server:23 - Type the name of your file
+2022-01-20 16:31:53 main INFO  Server:27 - The file was found
+2022-01-20 16:31:53 main INFO  Server:28 - Launching server.
+2022-01-20 16:31:53 main INFO  Server:30 - waiting for connection...
+2022-01-20 16:32:01 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:32:04 main INFO  Client:21 - The path was found
+2022-01-20 16:32:04 main INFO  Client:22 - Type the name of your new file
+2022-01-20 16:32:07 main INFO  Client:29 - Your file has been created
+2022-01-20 16:32:07 main INFO  Client:30 - Launching client...
+2022-01-20 16:34:57 main INFO  Server:18 - Type the file path 
+2022-01-20 16:35:01 main INFO  Server:22 - The path was found
+2022-01-20 16:35:01 main INFO  Server:23 - Type the name of your file
+2022-01-20 16:35:05 main INFO  Server:27 - The file was found
+2022-01-20 16:35:05 main INFO  Server:28 - Launching server.
+2022-01-20 16:35:05 main INFO  Server:30 - waiting for connection...
+2022-01-20 16:35:10 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-20 16:35:17 main INFO  Client:21 - The path was found
+2022-01-20 16:35:17 main INFO  Client:22 - Type the name of your new file
+2022-01-20 16:35:21 main INFO  Client:29 - Your file has been created
+2022-01-20 16:35:21 main INFO  Client:30 - Launching client...
+2022-01-20 16:42:17 Thread-1 ERROR WriteToFile:38 - Error al leer del socket
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-21 16:24:47 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 16:24:56 main INFO  Client:21 - The path was found
+2022-01-21 16:24:56 main INFO  Client:22 - Type the name of your new file
+2022-01-21 16:25:18 main INFO  Client:26 - The file already exists
+2022-01-21 16:25:27 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 16:25:30 main INFO  Server:18 - Type the file path 
+2022-01-21 16:25:43 main INFO  Server:22 - The path was found
+2022-01-21 16:25:43 main INFO  Server:23 - Type the name of your file
+2022-01-21 16:25:49 main INFO  Server:27 - The file was found
+2022-01-21 16:25:49 main INFO  Server:28 - Launching server.
+2022-01-21 16:25:49 main INFO  Server:30 - waiting for connection...
+2022-01-21 16:25:56 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 16:26:02 main INFO  Client:21 - The path was found
+2022-01-21 16:26:02 main INFO  Client:22 - Type the name of your new file
+2022-01-21 16:26:06 main INFO  Client:29 - Your file has been created
+2022-01-21 16:26:06 main INFO  Client:30 - Launching client...
+2022-01-21 16:31:12 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 16:31:25 main INFO  Server:18 - Type the file path 
+2022-01-21 16:31:35 main INFO  Server:22 - The path was found
+2022-01-21 16:31:35 main INFO  Server:23 - Type the name of your file
+2022-01-21 16:31:40 main INFO  Server:27 - The file was found
+2022-01-21 16:31:40 main INFO  Server:28 - Launching server.
+2022-01-21 16:31:40 main INFO  Server:30 - waiting for connection...
+2022-01-21 16:31:46 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 16:31:53 main INFO  Client:21 - The path was found
+2022-01-21 16:31:53 main INFO  Client:22 - Type the name of your new file
+2022-01-21 16:31:57 main INFO  Client:29 - Your file has been created
+2022-01-21 16:31:57 main INFO  Client:30 - Launching client...
+2022-01-21 16:31:57 Thread-1 ERROR WriteToFile:29 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-21 16:31:57 Thread-1 ERROR WriteToFile:29 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-21 16:33:17 main INFO  Server:18 - Type the file path 
+2022-01-21 16:33:19 main INFO  Server:22 - The path was found
+2022-01-21 16:33:19 main INFO  Server:23 - Type the name of your file
+2022-01-21 16:33:24 main INFO  Server:27 - The file was found
+2022-01-21 16:33:24 main INFO  Server:28 - Launching server.
+2022-01-21 16:33:24 main INFO  Server:30 - waiting for connection...
+2022-01-21 16:33:28 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 16:33:48 main INFO  Client:21 - The path was found
+2022-01-21 16:33:48 main INFO  Client:22 - Type the name of your new file
+2022-01-21 16:33:53 main INFO  Client:29 - Your file has been created
+2022-01-21 16:33:53 main INFO  Client:30 - Launching client...
+2022-01-21 16:34:13 Thread-1 ERROR WriteToFile:29 - Error al leer del socket
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-21 23:54:25 main INFO  Server:18 - Type the file path 
+2022-01-21 23:54:45 main INFO  Server:40 - ERROR:The path wasn't found
+2022-01-21 23:54:58 main INFO  Server:18 - Type the file path 
+2022-01-21 23:55:05 main INFO  Server:22 - The path was found
+2022-01-21 23:55:05 main INFO  Server:23 - Type the name of your file
+2022-01-21 23:55:12 main INFO  Server:27 - The file was found
+2022-01-21 23:55:12 main INFO  Server:28 - Launching server.
+2022-01-21 23:55:12 main INFO  Server:30 - waiting for connection...
+2022-01-21 23:55:16 main INFO  Client:17 - Type the path where you want to create your file
+2022-01-21 23:55:23 main INFO  Client:21 - The path was found
+2022-01-21 23:55:23 main INFO  Client:22 - Type the name of your new file
+2022-01-21 23:55:28 main INFO  Client:29 - Your file has been created
+2022-01-21 23:55:28 main INFO  Client:30 - Launching client...
+2022-01-21 23:58:14 main INFO  Server:18 - Type the file path 
+2022-01-21 23:58:24 main INFO  Server:22 - The path was found
+2022-01-21 23:58:24 main INFO  Server:23 - Type the name of your file
+2022-01-21 23:58:28 main INFO  Server:27 - The file was found
+2022-01-21 23:58:28 main INFO  Server:28 - Launching server.
+2022-01-21 23:58:28 main INFO  Server:30 - waiting for connection...
+2022-01-21 23:58:36 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-21 23:58:40 main INFO  Client:22 - The path was found
+2022-01-21 23:58:40 main INFO  Client:23 - Type the name of your new file
+2022-01-21 23:58:45 main INFO  Client:30 - Your file has been created
+2022-01-21 23:58:45 main INFO  Client:31 - Launching client...
+2022-01-22 00:17:56 main INFO  Server:18 - Type the file path 
+2022-01-22 00:17:59 main INFO  Server:40 - ERROR:The path wasn't found
+2022-01-22 00:18:08 main INFO  Server:18 - Type the file path 
+2022-01-22 00:18:13 main INFO  Server:22 - The path was found
+2022-01-22 00:18:13 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:18:17 main INFO  Server:27 - The file was found
+2022-01-22 00:18:17 main INFO  Server:28 - Launching server.
+2022-01-22 00:18:17 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:18:22 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:18:22 Thread-1 ERROR WriteToFile:37 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:18:32 main INFO  Client:22 - The path was found
+2022-01-22 00:18:32 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:18:38 main INFO  Client:30 - Your file has been created
+2022-01-22 00:18:38 main INFO  Client:31 - Launching client...
+2022-01-22 00:20:06 main ERROR Client:40 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:17)
+2022-01-22 00:21:14 main INFO  Server:18 - Type the file path 
+2022-01-22 00:21:19 main INFO  Server:22 - The path was found
+2022-01-22 00:21:19 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:22:50 main INFO  Server:27 - The file was found
+2022-01-22 00:22:50 main INFO  Server:28 - Launching server.
+2022-01-22 00:22:50 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:22:55 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:22:55 Thread-1 ERROR WriteToFile:37 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:23:03 main INFO  Client:22 - The path was found
+2022-01-22 00:23:03 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:23:08 main INFO  Client:30 - Your file has been created
+2022-01-22 00:23:08 main INFO  Client:31 - Launching client...
+2022-01-22 00:23:08 Thread-1 ERROR WriteToFile:37 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:24:13 main INFO  Server:18 - Type the file path 
+2022-01-22 00:24:16 main INFO  Server:22 - The path was found
+2022-01-22 00:24:16 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:24:20 main INFO  Server:27 - The file was found
+2022-01-22 00:24:20 main INFO  Server:28 - Launching server.
+2022-01-22 00:24:20 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:24:24 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:24:24 Thread-1 ERROR WriteToFile:38 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:24:27 main INFO  Client:22 - The path was found
+2022-01-22 00:24:27 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:24:31 main INFO  Client:30 - Your file has been created
+2022-01-22 00:24:31 main INFO  Client:31 - Launching client...
+2022-01-22 00:24:31 Thread-1 ERROR WriteToFile:38 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:25:08 main INFO  Server:18 - Type the file path 
+2022-01-22 00:25:53 main INFO  Server:18 - Type the file path 
+2022-01-22 00:26:00 main INFO  Server:22 - The path was found
+2022-01-22 00:26:00 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:26:10 main INFO  Server:27 - The file was found
+2022-01-22 00:26:10 main INFO  Server:28 - Launching server.
+2022-01-22 00:26:10 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:26:18 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:26:18 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:26:20 main INFO  Client:22 - The path was found
+2022-01-22 00:26:20 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:26:24 main INFO  Client:30 - Your file has been created
+2022-01-22 00:26:24 main INFO  Client:31 - Launching client...
+2022-01-22 00:26:25 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:28:29 main INFO  Server:18 - Type the file path 
+2022-01-22 00:28:32 main INFO  Server:22 - The path was found
+2022-01-22 00:28:32 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:28:36 main INFO  Server:27 - The file was found
+2022-01-22 00:28:36 main INFO  Server:28 - Launching server.
+2022-01-22 00:28:36 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:28:41 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:28:41 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:28:45 main INFO  Client:22 - The path was found
+2022-01-22 00:28:45 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:28:47 main INFO  Client:30 - Your file has been created
+2022-01-22 00:28:47 main INFO  Client:31 - Launching client...
+2022-01-22 00:28:47 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:35:22 main INFO  Server:18 - Type the file path 
+2022-01-22 00:35:26 main INFO  Server:22 - The path was found
+2022-01-22 00:35:26 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:35:32 main INFO  Server:27 - The file was found
+2022-01-22 00:35:32 main INFO  Server:28 - Launching server.
+2022-01-22 00:35:51 main INFO  Server:18 - Type the file path 
+2022-01-22 00:35:54 main INFO  Server:22 - The path was found
+2022-01-22 00:35:54 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:36:00 main INFO  Server:27 - The file was found
+2022-01-22 00:36:00 main INFO  Server:28 - Launching server.
+2022-01-22 00:36:00 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:36:04 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:36:04 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:36:08 main INFO  Client:22 - The path was found
+2022-01-22 00:36:08 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:36:12 main INFO  Client:30 - Your file has been created
+2022-01-22 00:36:12 main INFO  Client:31 - Launching client...
+2022-01-22 00:36:12 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:54:04 main INFO  Server:18 - Type the file path 
+2022-01-22 00:54:09 main INFO  Server:22 - The path was found
+2022-01-22 00:54:09 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:54:21 main INFO  Server:18 - Type the file path 
+2022-01-22 00:54:24 main INFO  Server:22 - The path was found
+2022-01-22 00:54:24 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:54:30 main INFO  Server:27 - The file was found
+2022-01-22 00:54:30 main INFO  Server:28 - Launching server.
+2022-01-22 00:54:30 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:54:36 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:54:36 Thread-1 ERROR WriteToFile:40 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:54:54 main INFO  Client:22 - The path was found
+2022-01-22 00:54:54 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:54:58 main INFO  Client:30 - Your file has been created
+2022-01-22 00:54:58 main INFO  Client:31 - Launching client...
+2022-01-22 00:54:58 Thread-1 ERROR WriteToFile:40 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:55:39 main ERROR Client:40 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:17)
+2022-01-22 00:55:53 main INFO  Server:18 - Type the file path 
+2022-01-22 00:55:57 main INFO  Server:22 - The path was found
+2022-01-22 00:55:57 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:56:05 main INFO  Server:27 - The file was found
+2022-01-22 00:56:05 main INFO  Server:28 - Launching server.
+2022-01-22 00:56:05 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:56:15 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:56:15 Thread-1 ERROR WriteToFile:40 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:56:35 main INFO  Server:18 - Type the file path 
+2022-01-22 00:56:41 main INFO  Server:22 - The path was found
+2022-01-22 00:56:41 main INFO  Server:23 - Type the name of your file
+2022-01-22 00:56:46 main INFO  Server:27 - The file was found
+2022-01-22 00:56:46 main INFO  Server:28 - Launching server.
+2022-01-22 00:56:46 main INFO  Server:30 - waiting for connection...
+2022-01-22 00:56:55 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 00:56:55 Thread-1 ERROR WriteToFile:40 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 00:57:11 main INFO  Client:22 - The path was found
+2022-01-22 00:57:11 main INFO  Client:23 - Type the name of your new file
+2022-01-22 00:57:17 main INFO  Client:27 - The file already exists
+2022-01-22 01:26:04 main ERROR Client:40 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:17)
+2022-01-22 01:26:31 main INFO  Server:18 - Type the file path 
+2022-01-22 01:26:40 main INFO  Server:22 - The path was found
+2022-01-22 01:26:40 main INFO  Server:23 - Type the name of your file
+2022-01-22 01:26:47 main INFO  Server:18 - Type the file path 
+2022-01-22 01:26:59 main INFO  Server:22 - The path was found
+2022-01-22 01:26:59 main INFO  Server:23 - Type the name of your file
+2022-01-22 01:27:07 main INFO  Server:27 - The file was found
+2022-01-22 01:27:07 main INFO  Server:28 - Launching server.
+2022-01-22 01:27:07 main INFO  Server:30 - waiting for connection...
+2022-01-22 01:27:12 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 01:27:27 main INFO  Client:22 - The path was found
+2022-01-22 01:27:27 main INFO  Client:23 - Type the name of your new file
+2022-01-22 01:27:40 main INFO  Client:30 - Your file has been created
+2022-01-22 01:27:40 main INFO  Client:31 - Launching client...
+2022-01-22 01:46:50 main INFO  Server:18 - Type the file path 
+2022-01-22 01:46:55 main INFO  Server:22 - The path was found
+2022-01-22 01:46:55 main INFO  Server:23 - Type the name of your file
+2022-01-22 01:46:59 main INFO  Server:27 - The file was found
+2022-01-22 01:46:59 main INFO  Server:28 - Launching server.
+2022-01-22 01:46:59 main INFO  Server:30 - waiting for connection...
+2022-01-22 01:47:07 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 01:47:07 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 01:55:26 main INFO  Server:18 - Type the file path 
+2022-01-22 01:55:29 main INFO  Server:22 - The path was found
+2022-01-22 01:55:29 main INFO  Server:23 - Type the name of your file
+2022-01-22 01:55:32 main INFO  Server:27 - The file was found
+2022-01-22 01:55:32 main INFO  Server:28 - Launching server.
+2022-01-22 01:55:32 main INFO  Server:30 - waiting for connection...
+2022-01-22 01:55:40 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 01:55:40 Thread-1 ERROR WriteToFile:38 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 01:58:53 main INFO  Server:18 - Type the file path 
+2022-01-22 01:58:55 main INFO  Server:22 - The path was found
+2022-01-22 01:58:55 main INFO  Server:23 - Type the name of your file
+2022-01-22 01:58:58 main INFO  Server:27 - The file was found
+2022-01-22 01:58:58 main INFO  Server:28 - Launching server.
+2022-01-22 01:58:58 main INFO  Server:30 - waiting for connection...
+2022-01-22 01:59:02 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 01:59:02 Thread-1 ERROR WriteToFile:38 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:26)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 02:01:51 main INFO  Server:18 - Type the file path 
+2022-01-22 02:02:00 main INFO  Server:22 - The path was found
+2022-01-22 02:02:00 main INFO  Server:23 - Type the name of your file
+2022-01-22 02:02:02 main INFO  Server:27 - The file was found
+2022-01-22 02:02:02 main INFO  Server:28 - Launching server.
+2022-01-22 02:02:02 main INFO  Server:30 - waiting for connection...
+2022-01-22 02:02:11 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 02:02:11 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 02:02:18 main INFO  Client:22 - The path was found
+2022-01-22 02:02:18 main INFO  Client:23 - Type the name of your new file
+2022-01-22 02:02:24 main INFO  Client:30 - Your file has been created
+2022-01-22 02:02:24 main INFO  Client:31 - Launching client...
+2022-01-22 02:02:24 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 02:03:16 main INFO  Server:18 - Type the file path 
+2022-01-22 02:03:19 main INFO  Server:22 - The path was found
+2022-01-22 02:03:19 main INFO  Server:23 - Type the name of your file
+2022-01-22 02:03:21 main INFO  Server:27 - The file was found
+2022-01-22 02:03:21 main INFO  Server:28 - Launching server.
+2022-01-22 02:03:21 main INFO  Server:30 - waiting for connection...
+2022-01-22 02:03:26 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 02:03:26 Thread-1 ERROR WriteToFile:39 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:27)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 02:03:30 main INFO  Client:22 - The path was found
+2022-01-22 02:03:30 main INFO  Client:23 - Type the name of your new file
+2022-01-22 02:03:32 main INFO  Client:30 - Your file has been created
+2022-01-22 02:03:32 main INFO  Client:31 - Launching client...
+2022-01-22 02:06:26 main INFO  Server:18 - Type the file path 
+2022-01-22 02:08:46 main INFO  Server:40 - ERROR:The path wasn't found
+2022-01-22 02:08:52 main INFO  Server:18 - Type the file path 
+2022-01-22 02:08:56 main INFO  Server:22 - The path was found
+2022-01-22 02:08:56 main INFO  Server:23 - Type the name of your file
+2022-01-22 02:08:58 main INFO  Server:27 - The file was found
+2022-01-22 02:08:58 main INFO  Server:28 - Launching server.
+2022-01-22 02:08:58 main INFO  Server:30 - waiting for connection...
+2022-01-22 02:09:03 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 02:09:03 Thread-1 ERROR WriteToFile:46 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 02:09:08 main INFO  Client:22 - The path was found
+2022-01-22 02:09:08 main INFO  Client:23 - Type the name of your new file
+2022-01-22 02:09:15 main INFO  Client:30 - Your file has been created
+2022-01-22 02:09:15 main INFO  Client:31 - Launching client...
+2022-01-22 02:15:59 main INFO  Server:18 - Type the file path 
+2022-01-22 02:16:04 main INFO  Server:22 - The path was found
+2022-01-22 02:16:04 main INFO  Server:23 - Type the name of your file
+2022-01-22 02:16:26 main INFO  Server:27 - The file was found
+2022-01-22 02:16:26 main INFO  Server:28 - Launching server.
+2022-01-22 02:16:26 main INFO  Server:30 - waiting for connection...
+2022-01-22 02:16:34 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 02:16:34 Thread-1 ERROR WriteToFile:40 - Sockey has benn closed
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-22 02:16:56 main INFO  Client:22 - The path was found
+2022-01-22 02:16:56 main INFO  Client:23 - Type the name of your new file
+2022-01-22 02:16:59 main INFO  Client:30 - Your file has been created
+2022-01-22 02:16:59 main INFO  Client:31 - Launching client...
+2022-01-22 02:18:50 main INFO  Server:18 - Type the file path 
+2022-01-22 02:18:55 main INFO  Server:22 - The path was found
+2022-01-22 02:18:55 main INFO  Server:23 - Type the name of your file
+2022-01-22 02:19:00 main INFO  Server:27 - The file was found
+2022-01-22 02:19:00 main INFO  Server:28 - Launching server.
+2022-01-22 02:19:00 main INFO  Server:30 - waiting for connection...
+2022-01-22 02:19:04 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-22 02:19:04 Thread-1 ERROR WriteToFile:36 - Sockey has benn closed
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:02:54 main INFO  Server:18 - Type the file path 
+2022-01-23 19:03:04 main INFO  Server:22 - The path was found
+2022-01-23 19:03:04 main INFO  Server:23 - Type the name of your file
+2022-01-23 19:03:13 main INFO  Server:27 - The file was found
+2022-01-23 19:03:13 main INFO  Server:28 - Launching server.
+2022-01-23 19:03:13 main INFO  Server:30 - waiting for connection...
+2022-01-23 19:03:18 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-23 19:03:18 Thread-1 ERROR WriteToFile:36 - Socket has been closed
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:03:44 main INFO  Client:22 - The path was found
+2022-01-23 19:03:44 main INFO  Client:23 - Type the name of your new file
+2022-01-23 19:03:51 main INFO  Client:30 - Your file has been created
+2022-01-23 19:03:51 main INFO  Client:31 - Launching client...
+2022-01-23 19:09:09 main ERROR Client:40 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:17)
+2022-01-23 19:09:23 main INFO  Server:18 - Type the file path 
+2022-01-23 19:09:27 main INFO  Server:22 - The path was found
+2022-01-23 19:09:27 main INFO  Server:23 - Type the name of your file
+2022-01-23 19:09:30 main INFO  Server:27 - The file was found
+2022-01-23 19:09:30 main INFO  Server:28 - Launching server.
+2022-01-23 19:09:30 main INFO  Server:30 - waiting for connection...
+2022-01-23 19:09:35 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-23 19:09:35 Thread-1 ERROR WriteToFile:36 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:12:09 main ERROR Client:39 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:17)
+2022-01-23 19:12:15 main INFO  Server:19 - Type the file path 
+2022-01-23 19:12:19 main INFO  Server:40 - ERROR:The path wasn't found
+2022-01-23 19:12:25 main INFO  Server:19 - Type the file path 
+2022-01-23 19:12:30 main INFO  Server:23 - The path was found
+2022-01-23 19:12:30 main INFO  Server:24 - Type the name of your file
+2022-01-23 19:12:33 main INFO  Server:28 - The file was found
+2022-01-23 19:12:33 main INFO  Server:29 - Launching server.
+2022-01-23 19:12:33 main INFO  Server:30 - waiting for connection...
+2022-01-23 19:12:39 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-23 19:12:39 Thread-1 ERROR WriteToFile:35 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:12:54 main INFO  Client:22 - The path was found
+2022-01-23 19:12:54 main INFO  Client:23 - Type the name of your new file
+2022-01-23 19:12:57 main INFO  Client:30 - Your file has been created
+2022-01-23 19:12:57 main INFO  Client:31 - Launching client...
+2022-01-23 19:28:39 main INFO  Server:18 - Type the file path 
+2022-01-23 19:28:45 main INFO  Server:22 - The path was found
+2022-01-23 19:28:45 main INFO  Server:23 - Type the name of your file
+2022-01-23 19:28:49 main INFO  Server:27 - The file was found
+2022-01-23 19:28:49 main INFO  Server:28 - Launching server.
+2022-01-23 19:28:49 main INFO  Server:29 - waiting for connection...
+2022-01-23 19:28:54 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-23 19:28:54 Thread-1 ERROR WriteToFile:35 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:31:14 main ERROR Client:41 - Error while connection
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.iesfm.transferenciaDatos.Client.main(Client.java:17)
+2022-01-23 19:31:20 main INFO  Server:18 - Type the file path 
+2022-01-23 19:31:24 main INFO  Server:42 - ERROR:The path wasn't found
+2022-01-23 19:31:27 main INFO  Server:18 - Type the file path 
+2022-01-23 19:31:35 main INFO  Server:22 - The path was found
+2022-01-23 19:31:35 main INFO  Server:23 - Type the name of your file
+2022-01-23 19:31:42 main INFO  Server:27 - The file was found
+2022-01-23 19:31:42 main INFO  Server:28 - Launching server.
+2022-01-23 19:31:42 main INFO  Server:29 - waiting for connection...
+2022-01-23 19:31:48 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-23 19:31:48 Thread-1 ERROR WriteToFile:35 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:31:57 main INFO  Client:22 - The path was found
+2022-01-23 19:31:57 main INFO  Client:23 - Type the name of your new file
+2022-01-23 19:32:06 main INFO  Client:30 - Your file has been created
+2022-01-23 19:32:06 main INFO  Client:31 - Launching client...
+2022-01-23 19:33:19 main INFO  Server:18 - Type the file path 
+2022-01-23 19:33:26 main INFO  Server:22 - The path was found
+2022-01-23 19:33:26 main INFO  Server:23 - Type the name of your file
+2022-01-23 19:33:31 main INFO  Server:27 - The file was found
+2022-01-23 19:33:31 main INFO  Server:28 - Launching server.
+2022-01-23 19:33:31 main INFO  Server:29 - waiting for connection...
+2022-01-23 19:33:35 main INFO  Client:18 - Type the path where you want to create your file
+2022-01-23 19:33:35 Thread-1 ERROR WriteToFile:35 - Error al leer del socket
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at org.iesfm.transferenciaDatos.WriteToFile.run(WriteToFile.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-01-23 19:33:41 main INFO  Client:22 - The path was found
+2022-01-23 19:33:41 main INFO  Client:23 - Type the name of your new file
+2022-01-23 19:33:46 main INFO  Client:30 - Your file has been created
+2022-01-23 19:33:46 main INFO  Client:31 - Launching client...
