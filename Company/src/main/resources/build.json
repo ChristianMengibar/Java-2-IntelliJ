@@ -1,0 +1,34 @@
+{
+  "direction": "Avenida Fuenlabrada",
+  "municipality": "Leganes",
+  "apartments": [
+    {
+      "number": 1,
+      "door": "A",
+      "owners": [
+        {
+          "name": "Christian",
+          "surname": "Mengibar"
+        },
+        {
+          "name": "Jesus",
+          "surname": "Perez"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "door": "B",
+      "owners": [
+        {
+          "name": "Raul",
+          "surname": "Albarran"
+        },
+        {
+          "name": "Michal",
+          "surname": "Homenda"
+        }
+      ]
+    }
+  ]
+}

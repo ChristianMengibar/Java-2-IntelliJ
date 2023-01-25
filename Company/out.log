@@ -1,0 +1,34 @@
+2021-10-07 10:50:21 ERROR CompanyMain:27 - El json no está bien formado
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.iesfm.company.Company` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1764)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1209)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:362)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:195)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4593)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3413)
+	at org.iesfm.company.CompanyMain.main(CompanyMain.java:20)
+2021-10-07 10:51:34 INFO  CompanyMain:21 - Company{companyName='Tecnoderecho', department=[Department{departmentName='Web', employees=[Employee{nif='12345678A', employeeName='Christian', employeeSurname='Mengibar', position='Practicas'}, Employee{nif='12345678B', employeeName='Alfonso', employeeSurname='Castellote', position='Encargado'}]}, Department{departmentName='Departamento Tecnico', employees=[Employee{nif='12345678C', employeeName='Javier', employeeSurname='Recio', position='Encargado'}, Employee{nif='12345678D', employeeName='Ruben', employeeSurname='Navarro', position='Pruebas'}]}]}
+2021-10-07 10:51:34 INFO  CompanyMain:22 - Employee{nif='12345678A', employeeName='Christian', employeeSurname='Mengibar', position='Practicas'}
+2021-10-07 11:55:24 INFO  CompanyMain:21 - Company{companyName='Tecnoderecho', department=[Department{departmentName='Web', employees=[Employee{nif='12345678A', employeeName='Christian', employeeSurname='Mengibar', position='Practicas'}, Employee{nif='12345678B', employeeName='Alfonso', employeeSurname='Castellote', position='Encargado'}]}, Department{departmentName='Departamento Tecnico', employees=[Employee{nif='12345678C', employeeName='Javier', employeeSurname='Recio', position='Encargado'}, Employee{nif='12345678D', employeeName='Ruben', employeeSurname='Navarro', position='Pruebas'}]}]}
+2021-10-07 11:55:24 INFO  CompanyMain:22 - Employee{nif='12345678A', employeeName='Christian', employeeSurname='Mengibar', position='Practicas'}
+2021-10-07 11:58:24 ERROR BuildMain:27 - El json no está bien formado
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "apartment" (class org.iesfm.build.Build), not marked as ignorable (3 known properties: "apartments", "municipality", "direction"])
+ at [Source: (File); line: 4, column: 17] (through reference chain: org.iesfm.build.Build["apartment"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:987)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1974)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1701)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1679)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:330)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4593)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3413)
+	at org.iesfm.build.BuildMain.main(BuildMain.java:20)
+2021-10-07 11:59:38 INFO  BuildMain:21 - Build{direction='Avenida Fuenlabrada', municipality='Leganes', apartments=[Apartment{number=1, door='A', owners=[Owner{name='Christian', surname='Megibar'}, Owner{name='Jesus', surname='Perez'}]}, Apartment{number=2, door='B', owners=[Owner{name='Raul', surname='Albarran'}, Owner{name='Michal', surname='Homenda'}]}]}
+2021-10-07 11:59:38 INFO  BuildMain:22 - Owner{name='Christian', surname='Megibar'}
